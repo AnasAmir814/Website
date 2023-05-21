@@ -1,0 +1,64 @@
+* {background-color: black}
+
+
+header {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  float: right;
+  display: flex;
+  color: white;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:visited { 
+  text-decoration: none; 
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  padding: 0 20px;
+}
+
+.button{
+  float: left;
+  background-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-container {
+  position: absolute;
+  top: 70px; /* adjust this value to position the container under the button */
+  left: 0;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.dropdown-container a {
+  display: block;
+}

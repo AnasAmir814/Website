@@ -1,0 +1,19 @@
+header {
+    font-size: 30px; /* Increase the font size to make the header bigger */
+    padding: 20px; /* Add padding to create space around the header */
+    /* background-color: lightgray; /* Optional: Add a background color to the header */
+    color: #333; /* Optional: Change the text color of the header */
+  }
+  
+  main {
+    margin-top: 20px; /* Add margin to separate the main content from the header */
+  }
+  
+  h1 {
+    font-size: 24px; /* Optional: Adjust the font size of the heading */
+  }
+  
+  p {
+    margin-top: 10px; /* Add margin to separate the paragraphs */
+  }
+  
